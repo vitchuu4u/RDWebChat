@@ -12,7 +12,6 @@ const flash = require('connect-flash');
 const passport = require('passport');
 
 
-
 container.resolve(function (users) {
     mongoose.Promise = global.Promise;
     mongoose.connect('mongodb://localhost/RDWebChat');
