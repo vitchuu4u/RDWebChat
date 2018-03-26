@@ -4,7 +4,7 @@ const path = require('path');
 const container = dependable.container();
 
 const simpleDepedencies = [
-    ["-", "lodash"]
+    ["_", "lodash"]
 ];
 
 simpleDepedencies.forEach(function (val) {
